@@ -1,5 +1,6 @@
 #!/bin/bash
 ############ Install Core Tools ############
+sudo apt install git
 sudo apt install jq
 sudo apt install curl
 sudo apt install dconf

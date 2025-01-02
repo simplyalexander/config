@@ -56,6 +56,10 @@ GNOME is amazing, haters can suck it. I'm not including any other DE setup.
   - `zoxide`
   - `tldr`
   - `eza`
+  - `bat`
+- Bonuses
+  - `ffmpeg`
+  - `thefuck`
 - Aliases
   - Debian - a bunch of `apt` aliases, since apt kinda sucks
 
