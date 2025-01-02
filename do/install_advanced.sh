@@ -1,3 +1,4 @@
+#!/bin/bash
 ############ Install Core Tools ############
 sudo apt install jq
 sudo apt install curl
