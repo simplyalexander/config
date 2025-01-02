@@ -1,0 +1,23 @@
+{
+  "basic": {
+    "uninstall": {
+      "gnome-games": ["chess"],
+      "synaptic": "synaptic-package*"
+    },
+    "install": {}
+  },
+  "advanced": {
+    "uninstall": {
+      "gnome-games": ["chess"],
+      "synaptic": "synaptic-package*"
+    },
+    "install": {}
+  },
+  "gaming": {
+    "uninstall": {
+      "gnome-games": ["chess"],
+      "synaptic": "synaptic-package*"
+    },
+    "install": {}
+  }
+}

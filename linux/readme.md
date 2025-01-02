@@ -14,6 +14,7 @@ GNOME is amazing, haters can suck it. I'm not including any other DE setup.
   - `Ctrl` - main program control key (see below).
   - `Option`/`Alt` - idk, also within program scope
   - Obv different on Mac - all 3 modifiers can work in and out of programs
+
 - Common shortcuts
 
   - `Ctrl + ,` to open settings
@@ -25,21 +26,21 @@ GNOME is amazing, haters can suck it. I'm not including any other DE setup.
 
 ### My custom GNOME shortcuts
 
-* Core workspace navigation
-  * `super + z` - move left
-  * `super + x` - move right
-  * `super + c` - move to last workspace
-  * `super + Q / W / E / R / T` - open workstations 1-5
-  * `shift + super + Q / W / E / R / T` - move open window to workstations 1-5
-* Window managment
-  * `super + up` - maximize
-  * `super + down` - un-maximize
-  * `super + left` - move to left split-panel (or out of right split-panel)
-  * `super + right` - move to right split-panel (or out of left split-panel)
-  * `super + w` - close window
-  * `super + h` - hide?
-  * [later] `super + q` - close active program
-* Switcher
+- Core workspace navigation
+  - `super + z` - move left
+  - `super + x` - move right
+  - `super + c` - move to last workspace
+  - `super + Q / W / E / R / T` - open workstations 1-5
+  - `shift + super + Q / W / E / R / T` - move open window to workstations 1-5
+- Window managment
+  - `super + up` - maximize
+  - `super + down` - un-maximize
+  - `super + left` - move to left split-panel (or out of right split-panel)
+  - `super + right` - move to right split-panel (or out of left split-panel)
+  - `super + w` - close window
+  - `super + h` - hide?
+  - [later] `super + q` - close active program
+- Switcher
 
 ### Terminal
 
@@ -62,7 +63,7 @@ GNOME is amazing, haters can suck it. I'm not including any other DE setup.
 
 - I guess I'll write with Debian and `apt` in mind - but it could be worth making one for (for Fedora `dnf`)
 
-#### Workstation - For any desktop
+#### Basic - For any desktop
 
 - Uninstall GNOME games/bloat
 - Dark mode
@@ -82,21 +83,37 @@ GNOME is amazing, haters can suck it. I'm not including any other DE setup.
 ### Advanced - for computers where I use terminal extensively
 
 - Command line apps
-- `Alacritty`, with above config
+
+  - configure `bat`
+  - add `ctrl + l` for `fzf` find
+  - add my .bashrc
+
+- `alacritty`, with above config
 - `rig`, `pak`, `R`, and [Rstudio](https://github.com/rstudio/rstudio/tree/main/dependencies/linux)
 
   - Hide stupid `R` folder
+
 - [maybe] `FiraCode Nerd Font`
 - `Visual Studio Code`
 - `Postgres`
 - `rustup`, `rust`, and `cargo`
 - [later] `rustrover`
 - [later] `docker`
-- Add an app folder for all t****hese programs
+- Add an app folder for all t\*\*\*\*hese programs
+
+### Gaming
+
+- For ❤️ Kayla's computer ❤️
+- Extra bells and whistles, probably based on Fedora or Nobara
+- Discord
+- Spotify
+- Snapcraft
+- Cider (Apple Music Client)
+- EA of course
 
 ### So, which install scripts?
 
-##### linux-workstation-config.sh
+##### linux-basic-config.sh
 
 - Uninstall GNOME bloat
 - Configure system keybindings
@@ -114,20 +131,23 @@ GNOME is amazing, haters can suck it. I'm not including any other DE setup.
   - "Coding" App Folder for those programs
   - Maybe need Chrome for `chromote`
 
-##### Other files needed
+### Install before all
 
-* Programs - a JSON or csv or toml or my own thing or something
-* To list installs / uninstalls for particular configuration
-* [maybe] do I need curl
+- `git`
+- `jq` - json parser
+- `dconf` / `gsettings`
+- [maybe] `curl`
 
-##### Closing thoughts
+### Files needed in repo
 
-* Yay!
+- programs.json - for programs that don't need any weird installation
+- .bashrc for linux (and .zshrc for mac)
+- alacritty.toml (for mac and linux)
 
+### Closing thoughts
 
-
-
-
-
+- [maybe] gaming-config??? basic is minimal install
+- [maybe] also server-config?
+- Yay!
 
 That's it!! Have fun :)
