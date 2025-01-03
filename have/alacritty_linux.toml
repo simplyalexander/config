@@ -6,7 +6,7 @@ size = 14
 offset = { x = 2, y = 14 }
 
 [font.normal]
-family = "JetBrainsMonoNL Nerd Font Mono"
+family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
 [window]
